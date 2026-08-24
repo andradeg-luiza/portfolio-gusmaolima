@@ -1,6 +1,6 @@
 # gusmaolima-portfolio
 
-Site pessoal de portfólio de **Gusmão Lima**, publicado em [gusmaolima.com](https://gusmaolima.com). O projeto funciona como vitrine dos pequenos sistemas e aplicações criados com auxílio de IA (via Cursor), cada um acompanhado de documentação pública: README do repositório, prompts utilizados na criação e um resumo do que o sistema faz.
+Site pessoal de portfólio de **Luiza Gusmão de Andrade Lima**, publicado em [gusmaolima.com](https://gusmaolima.com). O projeto funciona como vitrine dos pequenos sistemas e aplicações criados com auxílio de IA (via Cursor), cada um acompanhado de documentação pública: README do repositório, prompts utilizados na criação e um resumo do que o sistema faz.
 
 O site em si é construído com **Next.js (App Router)**, **TypeScript** e **Tailwind CSS**, com testes unitários via **Vitest** e **React Testing Library**. O código-fonte fica no GitHub e o deploy contínuo é feito pela **Vercel**, conectada ao repositório principal.
 
@@ -90,4 +90,4 @@ Detalhes completos de configuração estão na [US-008 — Deploy Vercel](docs/u
 
 ## Licença
 
-Conteúdo e código deste repositório são de autoria de Gusmão Lima, salvo indicação contrária.
+Conteúdo e código deste repositório são de autoria de Luiza Gusmão de Andrade Lima, salvo indicação contrária.
