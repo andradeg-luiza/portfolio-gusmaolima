@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Gusmão Lima — Portfólio",
-  description: "Portfólio pessoal em construção.",
+  title: "Luiza Lima — Portfólio",
+  description:
+    "Portfólio de Luiza Gusmão de Andrade Lima — desenvolvedora de software criando sistemas com IA.",
 };
 
 export default function RootLayout({

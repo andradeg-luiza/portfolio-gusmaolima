@@ -1,7 +1,7 @@
 # US-002 — Hero section (foto + currículo)
 
 **Prioridade:** Alta  
-**Status:** Não iniciado
+**Status:** Concluído
 
 ---
 
@@ -13,15 +13,15 @@ Como **visitante do portfólio**, eu quero **ver uma seção inicial com a foto 
 
 ## Critérios de aceite
 
-- [ ] Componente `HeroSection` criado em `src/components/sections/HeroSection.tsx`
-- [ ] Exibe foto de perfil com `alt` descritivo (ex.: "Foto de perfil de Gusmão Lima")
-- [ ] Foto otimizada via componente `next/image` (width/height definidos, lazy loading)
-- [ ] Nome da autora visível como `<h1>` (único h1 da página)
-- [ ] Texto de currículo resumido (2–4 parágrafos ou lista de destaques: formação, experiência, skills principais)
-- [ ] Seção integrada na página inicial (`page.tsx`) como primeiro bloco visível
-- [ ] Layout desktop: foto e texto lado a lado ou empilhados de forma harmoniosa
-- [ ] Estilização com Tailwind CSS, visual limpo e profissional
-- [ ] Conteúdo textual pode vir de constante em `src/data/profile.ts` ou similar (separado do componente)
+- [x] Componente `HeroSection` criado em `src/components/sections/HeroSection.tsx`
+- [x] Exibe foto de perfil com `alt` descritivo (ex.: "Foto de perfil de Gusmão Lima")
+- [x] Foto otimizada via componente `next/image` (width/height definidos, lazy loading)
+- [x] Nome da autora visível como `<h1>` (único h1 da página)
+- [x] Texto de currículo resumido (2–4 parágrafos ou lista de destaques: formação, experiência, skills principais)
+- [x] Seção integrada na página inicial (`page.tsx`) como primeiro bloco visível
+- [x] Layout desktop: foto e texto lado a lado ou empilhados de forma harmoniosa
+- [x] Estilização com Tailwind CSS, visual limpo e profissional
+- [x] Conteúdo textual pode vir de constante em `src/data/profile.ts` ou similar (separado do componente)
 
 ---
 
