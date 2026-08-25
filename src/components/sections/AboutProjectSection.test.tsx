@@ -11,17 +11,18 @@ describe("AboutProjectSection", () => {
     ).toBeInTheDocument();
   });
 
-  it("renderiza os três parágrafos com texto-chave", () => {
+  it("renderiza os dois parágrafos com texto-chave", () => {
     render(<AboutProjectSection />);
 
     expect(
-      screen.getByText(/Este portfólio reúne sistemas simples — calculadoras, mini-jogos/),
+      screen.getByText(
+        /Aqui você acompanha, passo a passo, como pequenos sistemas e jogos nascem a partir de prompts de inteligência artificial/,
+      ),
     ).toBeInTheDocument();
     expect(
-      screen.getByText(/Mais do que mostrar o resultado final, o objetivo aqui é documentar o processo/),
-    ).toBeInTheDocument();
-    expect(
-      screen.getByText(/Essa é também uma forma de compartilhar minha transição de Quality Assurance/),
+      screen.getByText(
+        /Mais do que mostrar o resultado final, o objetivo é documentar o processo: cada projeto vem com o prompt exato/,
+      ),
     ).toBeInTheDocument();
   });
 });

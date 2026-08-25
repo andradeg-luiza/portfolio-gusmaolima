@@ -8,9 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        brand: {
+          DEFAULT: "#0F766E",
+          light: "#14B8A6",
+        },
+        accent: "#F59E0B",
+      },
       fontFamily: {
-        sans: ["var(--font-geist-sans)", "Arial", "Helvetica", "sans-serif"],
-        mono: ["var(--font-geist-mono)", "monospace"],
+        heading: ["var(--font-sora)", "sans-serif"],
+        sans: ["var(--font-inter)", "sans-serif"],
       },
     },
   },

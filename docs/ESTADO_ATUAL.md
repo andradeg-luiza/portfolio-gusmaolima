@@ -67,10 +67,11 @@ Ordem sugerida, alinhada às User Stories:
 | Scaffold manual (não `create-next-app`) | Diretório não vazio (`README.md`, `docs/`, `prototipo.pdf`) impedia inicialização automática; estrutura criada manualmente com equivalência funcional |
 | Next.js 15.5 + React 19 | Versões estáveis atuais compatíveis com App Router e ESLint flat config |
 | Tailwind CSS v3 (não v4) | Alinhado aos critérios da US-001 (`tailwind.config.ts` + `@tailwind` directives); v4 usa configuração CSS-first diferente |
-| Fonte Geist via `next/font/google` | Padrão recomendado pelo Next.js; pendência #6 resolvida provisoriamente |
+| Fonte Sora (headings) + Inter (body) via `next/font/google` | Hierarquia tipográfica clara; substitui Geist como identidade visual definida |
 | ESLint ignore para `next-env.d.ts` | Arquivo gerado pelo Next.js dispara falso positivo `@typescript-eslint/triple-slash-reference` |
 | HeroSection como Server Component | Sem interatividade; melhor performance; `next/image` com `priority` na foto acima da dobra |
-| AboutProjectSection como Server Component | Sem interatividade; fundo `bg-slate-50` + borda superior para contraste visual com a Hero |
+| AboutProjectSection como Server Component | Sem interatividade; fundo `bg-slate-100/60` + borda lateral `border-brand` no título para contraste visual com a Hero |
+| Paleta de cores e tipografia definidas (teal `#0F766E` como accent, Sora + Inter) | Identidade visual mais leve e profissional, evitando padrões genéricos de IA |
 | Mock de `next/image` nos testes | Vitest/jsdom não suporta Image Optimization nativamente; mock renderiza `<img>` simples |
 
 ---
@@ -95,3 +96,4 @@ Ordem sugerida, alinhada às User Stories:
 | 2026-08-24 | US-001 concluída — setup Next.js 15, TypeScript strict, Tailwind v3, Vitest, ESLint; página placeholder funcional |
 | 2026-08-24 | US-002 concluída — HeroSection com conteúdo real, foto, bio, links e 4 testes unitários |
 | 2026-08-24 | US-003 concluída — AboutProjectSection com conteúdo real e 2 testes unitários |
+| 2026-08-24 | Refinamento visual — tokens brand/accent, fontes Sora+Inter, Hero e About redesenhados; copy da seção "Sobre" atualizado |
