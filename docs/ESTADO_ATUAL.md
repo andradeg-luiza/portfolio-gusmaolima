@@ -6,7 +6,7 @@
 
 **Última atualização:** 24 de agosto de 2026
 
-**Fase atual:** US-002 concluída — Hero section com foto, bio e links; próxima etapa: seção sobre o projeto (US-003)
+**Fase atual:** US-003 concluída — seção sobre o projeto guarda-chuva; próxima etapa: card de projeto (US-004)
 
 ---
 
@@ -25,6 +25,8 @@
 - [x] **US-002** — Hero section com foto de perfil, nome, tagline, bio e links (LinkedIn, GitHub)
 - [x] Conteúdo real em `src/data/profile.ts` e imagem em `public/images/profile.jpeg`
 - [x] Testes unitários co-localizados em `HeroSection.test.tsx` (4 casos)
+- [x] **US-003** — Seção sobre o projeto guarda-chuva com conteúdo real em `src/data/about.ts`
+- [x] Testes unitários co-localizados em `AboutProjectSection.test.tsx` (2 casos)
 
 ---
 
@@ -38,15 +40,14 @@ _Nenhum item em andamento no momento._
 
 Ordem sugerida, alinhada às User Stories:
 
-1. **US-003** — Seção de resumo do projeto guarda-chuva
-2. **US-004** — Componente reutilizável de card de projeto/sistema
-3. **US-005** — Listagem/grid de cards de projetos
-4. **US-006** — Responsividade mobile
-5. **US-007** — SEO básico (meta tags, Open Graph, favicon)
-6. **US-009** — Testes unitários dos componentes principais
-7. **US-008** — Configuração de deploy no Vercel com domínio `gusmaolima.com`
+1. **US-004** — Componente reutilizável de card de projeto/sistema
+2. **US-005** — Listagem/grid de cards de projetos
+3. **US-006** — Responsividade mobile
+4. **US-007** — SEO básico (meta tags, Open Graph, favicon)
+5. **US-009** — Testes unitários dos componentes principais
+6. **US-008** — Configuração de deploy no Vercel com domínio `gusmaolima.com`
 
-> **Nota:** US-009 pode ser desenvolvida incrementalmente junto com US-003 a US-005 (testar cada componente ao criá-lo). A listagem acima coloca testes consolidados após as features, mas a abordagem co-localizada (teste junto ao componente) é preferível.
+> **Nota:** US-009 pode ser desenvolvida incrementalmente junto com US-004 a US-005 (testar cada componente ao criá-lo). A listagem acima coloca testes consolidados após as features, mas a abordagem co-localizada (teste junto ao componente) é preferível.
 
 ---
 
@@ -57,6 +58,7 @@ Ordem sugerida, alinhada às User Stories:
 | Next.js App Router (não Pages Router) | Padrão atual do ecossistema Next.js; melhor suporte a layouts, metadata API e Server Components |
 | Dados de projetos em arquivo estático (`data/projects.ts`) | Simplicidade para MVP; sem backend necessário; fácil migrar para CMS ou JSON remoto depois |
 | Dados de perfil em `src/data/profile.ts` | Separa conteúdo da UI; facilita testes e futuras edições sem alterar componente |
+| Dados do projeto guarda-chuva em `src/data/about.ts` | Mesmo padrão de separação conteúdo/UI usado no perfil |
 | Vitest em vez de Jest | Melhor performance com ESM/TypeScript; API familiar |
 | Tailwind CSS | Velocidade de desenvolvimento e consistência visual sem CSS modules |
 | Deploy via Vercel + GitHub | Integração nativa com Next.js, preview deployments e domínio customizado simples |
@@ -68,6 +70,7 @@ Ordem sugerida, alinhada às User Stories:
 | Fonte Geist via `next/font/google` | Padrão recomendado pelo Next.js; pendência #6 resolvida provisoriamente |
 | ESLint ignore para `next-env.d.ts` | Arquivo gerado pelo Next.js dispara falso positivo `@typescript-eslint/triple-slash-reference` |
 | HeroSection como Server Component | Sem interatividade; melhor performance; `next/image` com `priority` na foto acima da dobra |
+| AboutProjectSection como Server Component | Sem interatividade; fundo `bg-slate-50` + borda superior para contraste visual com a Hero |
 | Mock de `next/image` nos testes | Vitest/jsdom não suporta Image Optimization nativamente; mock renderiza `<img>` simples |
 
 ---
@@ -91,3 +94,4 @@ Ordem sugerida, alinhada às User Stories:
 | 2026-08-24 | Criação inicial — documentação completa, fase pré-desenvolvimento |
 | 2026-08-24 | US-001 concluída — setup Next.js 15, TypeScript strict, Tailwind v3, Vitest, ESLint; página placeholder funcional |
 | 2026-08-24 | US-002 concluída — HeroSection com conteúdo real, foto, bio, links e 4 testes unitários |
+| 2026-08-24 | US-003 concluída — AboutProjectSection com conteúdo real e 2 testes unitários |

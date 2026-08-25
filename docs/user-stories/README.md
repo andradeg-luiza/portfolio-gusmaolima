@@ -12,7 +12,7 @@
 |----|--------|------------|--------|
 | [US-001](US-001-setup-nextjs.md) | Setup inicial Next.js | Alta | Concluído |
 | [US-002](US-002-hero-section.md) | Hero section (foto + currículo) | Alta | Concluído |
-| [US-003](US-003-secao-projeto-guarda-chuva.md) | Seção projeto guarda-chuva | Alta | Não iniciado |
+| [US-003](US-003-secao-projeto-guarda-chuva.md) | Seção projeto guarda-chuva | Alta | Concluído |
 | [US-004](US-004-card-projeto.md) | Card de projeto reutilizável | Alta | Não iniciado |
 | [US-005](US-005-listagem-projetos.md) | Listagem/grid de projetos | Alta | Não iniciado |
 | [US-006](US-006-responsividade-mobile.md) | Responsividade mobile | Alta | Não iniciado |

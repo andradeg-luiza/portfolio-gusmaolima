@@ -1,7 +1,7 @@
 # US-003 — Seção resumo do projeto guarda-chuva
 
 **Prioridade:** Alta  
-**Status:** Não iniciado
+**Status:** Concluído
 
 ---
 
@@ -13,16 +13,16 @@ Como **visitante interessado em IA aplicada**, eu quero **ler uma seção que ex
 
 ## Critérios de aceite
 
-- [ ] Componente `AboutProjectSection` criado em `src/components/sections/AboutProjectSection.tsx`
-- [ ] Título da seção como `<h2>` (ex.: "Sobre este projeto" ou "Criando com IA")
-- [ ] Texto explicando:
+- [x] Componente `AboutProjectSection` criado em `src/components/sections/AboutProjectSection.tsx`
+- [x] Título da seção como `<h2>` (ex.: "Sobre este projeto" ou "Criando com IA")
+- [x] Texto explicando:
   - O que é o projeto guarda-chuva (portfólio de sistemas criados com IA)
   - Por que documentar prompts e processos publicamente
   - O que o visitante encontrará em cada card de projeto (README, prompts, resumo)
-- [ ] Seção posicionada na página inicial **abaixo** da Hero e **acima** da listagem de projetos
-- [ ] Conteúdo em arquivo de dados separado (`src/data/about.ts` ou similar)
-- [ ] Visualmente distinta da Hero (pode usar fundo alternado, borda ou ícone)
-- [ ] Comprimento adequado: 1–3 parágrafos, linguagem clara e acessível
+- [x] Seção posicionada na página inicial **abaixo** da Hero e **acima** da listagem de projetos
+- [x] Conteúdo em arquivo de dados separado (`src/data/about.ts` ou similar)
+- [x] Visualmente distinta da Hero (pode usar fundo alternado, borda ou ícone)
+- [x] Comprimento adequado: 1–3 parágrafos, linguagem clara e acessível
 
 ---
 
